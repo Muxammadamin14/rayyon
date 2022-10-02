@@ -169,12 +169,14 @@ h1 {
 .rating {
   margin: auto;
 }
-.rating{ 
-margin-top: 50px;
-margin-left: 600px;
+
+.rating {
+  margin-top: 50px;
+  margin-left: 600px;
 }
+
 .rating__display {
-  font-size:xx-large;
+  font-size: xx-large;
   font-weight: 900;
   min-height: 1.25em;
   position: absolute;
@@ -424,10 +426,41 @@ margin-left: 600px;
 }
 
 
-.baho__h1{
-width: 1000px;
-height: 100px;
-margin: 50px auto;
-text-align: center;
-align-items: center;
+.baho__h1 {
+  width: 1000px;
+  height: 100px;
+  margin: 50px auto;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  margin-top: 100px;
+}
+
+.call {
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.images__footer {
+  margin-left: 100px;
+  width: 330px;
+  height: 200px;
+}
+
+.saxifa {
+  margin: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid black;
 }
